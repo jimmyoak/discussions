@@ -33,7 +33,7 @@ object Expenses {
             .reduce { accumulator, current -> accumulator + current }
 }
 
-class Debate1Test {
+class DiscussionTest {
     @Test
     fun `get total of lines in order`() {
         val order = Order(OrderId("1"), listOf(
